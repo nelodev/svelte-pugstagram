@@ -4,10 +4,10 @@
 </div>
 
 <style>
-  .Modal {
+  .modal {
     position: relative;
   }
-  .Modal-overlay {
+  .modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     width: 100%;
