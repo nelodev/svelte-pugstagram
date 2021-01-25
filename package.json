@@ -1,26 +1,25 @@
 {
-    "name": "pugstagram",
-    "version": "1.0.0",
-    "description": "Instagram for pugs",
-    "main": "index.js",
-    "scripts": {
-        "build": "webpack --mode production",
-        "start": "webpack serve --open --mode development"
-    },
-    "author": "Nelo Puchades Bresó",
-    "license": "MIT",
-    "dependencies": {
-        "svelte": "^3.31.2"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.12.10",
-        "@babel/polyfill": "^7.12.1",
-        "@babel/preset-env": "^7.12.11",
-        "babel-loader": "^8.2.2",
-        "html-webpack-plugin": "^4.5.1",
-        "svelte-loader": "^2.13.6",
-        "webpack": "^5.14.0",
-        "webpack-cli": "^4.3.1",
-        "webpack-dev-server": "^3.11.2"
-    }
+  "name": "pugstagram",
+  "version": "1.0.0",
+  "description": "Instagram for pugs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "author": "Nelo Puchades Bresó",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2"
+  },
+  "devDependencies": {
+    "sapper": "^0.29.0",
+    "svelte": "^3.31.2",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.6"
+  }
 }

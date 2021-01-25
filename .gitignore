@@ -113,4 +113,8 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# End of https://www.toptal.com/developers/gitignore/api/node
+# End of https://www.toptal.com/developers/gitignore/api/node 
+
+#sapper
+src/node_modules
+__sapper__
